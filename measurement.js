@@ -27,7 +27,8 @@
 			KILOMETRE: 'km',
 			MILE: 'M',
 			METRE: 'm',
-			YARDS: 'y'
+			YARDS: 'y',
+			CENTIMETRE: 'cm'
 		},
 		Pressure: {
 			HECTOPASCAL: 'hPa',
@@ -112,6 +113,19 @@
 				key: UNIT.Distance.INCH,
 				base: 'm',
 				factor: 0.0254
+			},
+			'cm':{
+				key:  UNIT.Distance.CENTIMETRE,
+				base: 'm',
+				factor: 0.01,
+				name: {
+					en: 'Centimetre',
+					en_GB: 'Centimetre'
+				},
+				plural: {
+					en: 'Centimetre',
+					en_GB: 'Centimetres'
+				}
 			}
 		},
 		Pressure: {
